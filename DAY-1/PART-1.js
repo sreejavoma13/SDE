@@ -2,6 +2,7 @@
 const favoriteFood="ChickenBiryani"
 console.log(favoriteFood); 
 //output:ChickenBiryani
+console.log("--------------------------------------------------");
 
 //EASY-2
 let numA=10
@@ -16,6 +17,7 @@ else{
     console.log(`${numA} and ${numB} are Equal`);
 }
 //output:30 is larger
+console.log("--------------------------------------------------");
 
 //MEDIUM
 for(let i=1;i<=20;i++){

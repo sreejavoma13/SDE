@@ -42,7 +42,7 @@ console.log(inStockProducts);
     inStock: true
   }
 */
-
+console.log("--------------------------------------------------");
 //EASY-2
 const bookProducts=products.filter((obj)=>obj["category"]==="Books")
 console.log(bookProducts);
@@ -66,7 +66,7 @@ console.log(bookProducts);
 ]
 */
 
-
+console.log("--------------------------------------------------");
 //MEDIUM-1
 const productNames=products.map((obj)=>obj["name"])
 console.log(productNames);
@@ -81,7 +81,7 @@ console.log(productNames);
   'Smart Watch'
 ]
 */
-
+console.log("--------------------------------------------------");
 //MEDIUM-2
 const formattedarray=products.map((obj)=>`${obj["name"]}-$${obj["price"]}`)
 console.log(formattedarray);
@@ -95,12 +95,12 @@ console.log(formattedarray);
   'Smart Watch-$250'
 ] 
 */
-
+console.log("--------------------------------------------------");
 //HARD-1
 const total=products.reduce((acc,obj)=>acc+obj["price"],0)
 console.log(total);
 //output:1687
-
+console.log("--------------------------------------------------");
 //HARD-2
 const newArray=products.filter(function(obj){
     return obj["inStock"]===true;

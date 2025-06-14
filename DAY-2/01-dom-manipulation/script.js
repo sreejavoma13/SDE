@@ -1,5 +1,6 @@
 //EASY-1
 let heading=document.querySelector("#main-heading")
+//Another way
 //let heading=document.getElementByid("main-heading")
 heading.innerText="My Awesome Shop"
 //EASY-2

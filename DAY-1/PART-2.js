@@ -4,7 +4,7 @@ colors.push("black")
 colors.unshift("white")
 console.log(colors);
 //output:[ 'white', 'Blue', 'Yellow', 'Orange', 'black' ]
-
+console.log("--------------------------------------------------");
 //MEDIUM-1
 let numbers = [10, 20, 30, 40, 50];
 let newnumbers=numbers.map(function(number){
@@ -12,7 +12,7 @@ let newnumbers=numbers.map(function(number){
 })
 console.log(newnumbers);
 //output:[ 15, 25, 35, 45, 55 ]
-
+console.log("--------------------------------------------------");
 //MEDIUM-2
  let scores = [25, 80, 45, 95, 60, 75];
  let updatedscores=scores.filter(function(number){
@@ -20,7 +20,7 @@ console.log(newnumbers);
  })
  console.log(updatedscores);
 //output:[ 80, 95, 75 ]
-
+console.log("--------------------------------------------------");
 //HARD
 const averagescore=scores.reduce(function(acc,curr){
     return acc+curr;

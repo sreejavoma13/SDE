@@ -13,7 +13,7 @@ const arr=products.map((obj)=>`<li>${obj["name"]}</li>`)
 id.innerHTML=arr.join("")
 
 //MEDIUM
-//This works by commenting out Easy and Medium codes
+//This works by commenting out Easy and Hard codes
 const filteredarray=products.filter((obj)=>obj["inStock"]===true)
 filteredarray.forEach(function(obj){
     const str=`<li class="product-item"><h3>${obj["name"]}</h3><p>$${obj["price"]}</p></li>`
@@ -39,7 +39,7 @@ products.forEach(function(obj){
     id.appendChild(ele)
 })
 
-//Bonus
+// //Bonus
 const div=document.createElement("div")
 const total=products.filter((obj)=>obj["inStock"]===true).reduce((acc,obj)=>acc+obj["price"],0)
 const head=document.createElement("h4")

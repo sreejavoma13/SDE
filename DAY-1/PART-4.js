@@ -13,7 +13,7 @@ function getHighAchievers(students,passingscore){
 }
 console.log(getHighAchievers(students,passingscore));
 //output:[ 'ALICE', 'EVA' ]
-
+console.log("--------------------------------------------------");
 //HARD-2
 function createGame(){
     let secretnumber=8
